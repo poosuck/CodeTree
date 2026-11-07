@@ -1,0 +1,6 @@
+nums = [int(input()) for _ in range(10)]
+cnt = 0
+for i in nums:
+    if i % 2 == 1:
+        cnt += 1
+print(cnt)
