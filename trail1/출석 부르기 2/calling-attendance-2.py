@@ -1,22 +1,14 @@
-students = {
-    'John' : 1,
-    'Tom' : 2,
-    'Paul' : 3,
-    'Sam' : 4,
-}
-
 while True:
-    try:
-        num = int(input())
+    num = int(input())
 
-    except EOFError:
-        break
-
-
-    for key, value in students.items():
-        if num == value:
-            print(key)
-            break
+    if num == 1:
+        print('John')
+    elif num == 2:
+        print('Tom')
+    elif num == 3:
+        print('Paul')
+    elif num == 4:
+        print('Sam')
     else:
         print('Vacancy')
         break
